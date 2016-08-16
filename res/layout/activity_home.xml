@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="sus.oliver.mappafungi.homeActivity"
+    tools:context="sus.oliver.mappafungi.HomeActivity"
     android:background="#0b6b11">
 
     <TextView
@@ -20,15 +20,11 @@
         android:textColor="#ffffff"
         android:textSize="30dp" />
 
-    <Switch
+    <ListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cep "
-        android:id="@+id/cepSwitch"
-        android:layout_gravity="center_horizontal"
-        android:textSize="20dp"
-        android:textColor="#ffffff"
-        android:checked="false"
-        android:clickable="true" />
+        android:id="@+id/fungiListView"
+        android:dividerHeight="4px"
+        android:divider="#ffffff" />
 
 </LinearLayout>
